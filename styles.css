@@ -1,0 +1,53 @@
+.nav-bar {
+    font-family:arial;
+    margin: 10px 20px;
+    border-bottom: 3px solid transparent;
+  }
+  .nav-bar:hover {
+      border-bottom:3px solid darkblue;
+
+  }
+  #ms {
+    font-size:30px;
+    display: inline;
+    margin:20px;
+    color:grey;
+  }
+  .ms:hover {
+    border-bottom:3px solid darkblue;
+    border-length: 20px;
+
+}
+  #surf{
+    font-size:22px;
+    display:inline;
+    margin:10px;
+  }
+  .surf:hover {
+    border-bottom:3px solid darkblue;
+
+}
+  #rest {
+    font-size:15px;
+    display:inline;
+    margin:10px;
+  }
+  .rest:hover {
+    border-bottom:3px solid darkblue;
+
+}
+  .main {
+  
+    margin:6%;
+    position: relative;
+      
+  }
+  .row{
+
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+
+    
+  }
